@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: "CAPI Docs",
+    title: "Commander API",
     tagline: "マイクラ統合版のコマンドを拡張",
     favicon: "img/favicon.ico",
 
@@ -70,7 +70,7 @@ const config: Config = {
         // Replace with your project's social card
         // image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: "CAPI Docs",
+            title: "CAPI",
             //   logo: {
             //     alt: 'My Site Logo',
             //     src: 'img/logo.svg',
@@ -80,7 +80,7 @@ const config: Config = {
                     type: "docSidebar",
                     sidebarId: "tutorialSidebar",
                     position: "left",
-                    label: "Tutorial",
+                    label: "ドキュメント",
                 },
                 // {to: '/blog', label: 'Blog', position: 'left'},
                 {
@@ -94,7 +94,7 @@ const config: Config = {
             style: "dark",
             links: [
                 {
-                    title: "Docs",
+                    title: "ドキュメント",
                     items: [
                         {
                             label: "マクロ",
@@ -120,7 +120,7 @@ const config: Config = {
                 //   ],
                 // },
                 {
-                    title: "More",
+                    title: "その他",
                     items: [
                         // {
                         //   label: 'Blog',
